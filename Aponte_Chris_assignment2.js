@@ -79,3 +79,13 @@ var findCabStand = function(cab, area) {
 };// End String Function
 
 cabStandArea = findCabStand();
+
+// Return Values
+
+// Boolean
+console.log("boolean: " + todaysArea);
+// Number
+console.log("number: " + travelTime);
+// String
+console.log("string: " + cabStandArea);
+console.log(" ");
