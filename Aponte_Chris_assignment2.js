@@ -46,3 +46,19 @@ var getWorkArea = function(cabs, value) {
     }
     return DisneyArea;
 };// End Boolean Function
+
+todaysArea = getWorkArea(10, todaysFleet);
+console.log(" ");
+
+// Number Function
+var getMilesToLocation = function(miles) {
+    var milesToGo;
+    for (i = 0; i <= miles; i ++) {
+        milesToGo = miles - i;
+        console.log(myName + " has " + milesToGo + " miles to go.");
+        }
+    return milesToGo;
+};// End Number Function
+
+travelTime = getMilesToLocation(17);
+console.log(" ");
