@@ -25,3 +25,24 @@ var dayLength = function(n) {
         console.log(myName + " will have a long day today.");
     }
 };// End Procedure
+
+dayLength(todaysGoal);
+console.log(" ");
+
+// boolean Confirm
+todaysFleet = confirm("will " + myName + " be driving the " + cabName1 + " fleet today?");
+
+// Boolean function
+var getWorkArea = function(cabs, value) {
+    var DisneyArea;
+    while (cabs > 0) {
+        if (value === true) {
+            console.log(cabs + " cabs are left, " + myName + " will call dispatch and try and reservea " + cabName1);
+            DisneyArea = true;
+        }else {
+            DisneyArea = false;
+        }
+        cabs--;
+    }
+    return DisneyArea;
+};// End Boolean Function
