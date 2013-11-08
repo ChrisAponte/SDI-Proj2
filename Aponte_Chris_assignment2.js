@@ -62,3 +62,20 @@ var getMilesToLocation = function(miles) {
 
 travelTime = getMilesToLocation(17);
 console.log(" ");
+
+// String Function
+var findCabStand = function(cab, area) {
+    var cabStand;
+    if (todaysFleet === true) {
+        cab = cabName1;
+        area = area1;
+        cabStand = cab + ", " + area + ",";
+    }else {
+        cab = cabName2;
+        area = area2;
+        cabStand = cab + ", " + area + ",";
+    }
+    return cabStand;
+};// End String Function
+
+cabStandArea = findCabStand();
