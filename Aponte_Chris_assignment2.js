@@ -89,3 +89,10 @@ console.log("number: " + travelTime);
 // String
 console.log("string: " + cabStandArea);
 console.log(" ");
+
+//Outputs
+
+console.log("It is " + todaysFleet + " that " + myName + " will drive " + cabName1 + " today.");
+console.log("It is " + todaysArea + " that " + myName + " will be working the " + area1 + " area today.");
+console.log(myName + " has " + travelTime + " miles to go and is ready to make some money!");
+console.log(myName + " will be waiting at the " + cabStandArea + " cabstand.");
