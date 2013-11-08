@@ -47,7 +47,7 @@ var getWorkArea = function(cabs, value) {
     return DisneyArea;
 };// End Boolean Function
 
-todaysArea = getWorkArea(10, todaysFleet);
+var todaysArea = getWorkArea(10, todaysFleet);
 console.log(" ");
 
 // Number Function
